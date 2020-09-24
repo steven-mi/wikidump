@@ -5,16 +5,19 @@ This is a fork of the wikidump-extractor, in which we simplify the original sour
 ## Getting Started
 Clone code and install required library:
 ```bash
-git clone https://github.com/NewsPipe/wikidump-extractor.git
-cd wikiextractor
+git clone https://github.com/NewsPipe/wikidump.git
+cd wikidump
+pip install -r requirements.txt
 ```
-
 Show script usage:
 ```bash
-python3 wikiextractor.py --help
+python3 wikidump.py --help
 ```
-
-Example on german newspaper:
+Example for getting german wikipedia articles:
 ```
-python3 wikiextractor.py de
+python3 wikidump.py de
+```
+Example for getting english wikipedia articles:
+```
+python3 wikidump.py en
 ```
