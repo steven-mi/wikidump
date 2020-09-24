@@ -1,6 +1,6 @@
-# WikiExtractor
+# Wikidump
 
-In this fork we simplify the original wikidump-extractor code.
+This is a fork of the wikidump-extractor, in which we simplify the original source code.
 
 ## Getting Started
 Clone code and install required library:
