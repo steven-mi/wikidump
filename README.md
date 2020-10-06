@@ -3,15 +3,23 @@ Wikidump is a fork from the repository [wikiextractor](https://github.com/attard
 
 ## Getting Started
 Clone our repository and install the needed Python libraries. You may want to use a virtual enviroment:
-```https://github.com/NewsPipe/wikidump.git
+```
+https://github.com/NewsPipe/wikidump.git
 cd wikidump
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 Afterward you can start the script by calling it. Show script usage:
-```python3 wikidump.py --help```
+```
+python3 wikidump.py --help
+```
 Get german wikipedia articles:
-```python3 wikidump.py de```
+```
+python3 wikidump.py de
+```
 Get english wikipedia articles:
-```python3 wikidump.py en```
+```
+python3 wikidump.py en
+```
 
 The articles are stored as JSON format. 
